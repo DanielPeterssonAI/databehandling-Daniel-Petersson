@@ -17,6 +17,8 @@ lxml = "*"
 python-dotenv = "*"
 requests = "*"
 dash = "*"
+numexpr = "*"
+bottleneck = "*"
 
 [dev-packages]
 
