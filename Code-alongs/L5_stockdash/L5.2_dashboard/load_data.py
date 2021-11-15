@@ -5,7 +5,7 @@ import pandas as pd
 
 class StockDataLocal:
 
-    def __init__(self, data_folder_path: str = "../data/") -> None:
+    def __init__(self, data_folder_path: str = "./data/") -> None:
         self._data_folder_path = data_folder_path
 
     def stock_dataframe(self, stockname: str) -> list:
